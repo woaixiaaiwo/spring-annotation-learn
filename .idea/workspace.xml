@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5c49ac2-855c-4fc5-aa85-765ef066f292" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/springannotationlearn$TxTest_test01.ic" NAME="TxTest.test01 Coverage Results" MODIFIED="1562076088287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE-sources.jar!/org/springframework/aop/support/AbstractBeanFactoryPointcutAdvisor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/config/TxConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/tx/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="41" column="55" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="55" />
+              <folding>
+                <element signature="e#2272#2273#0" expanded="true" />
+                <element signature="e#2328#2329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE-sources.jar!/org/springframework/aop/support/AbstractPointcutAdvisor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAttributeSourcePointcut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAttributeSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/interceptor/AbstractFallbackTransactionAttributeSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="107" column="68" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BeanDefinitionParserDelegate</find>
+      <find>populateBean</find>
+      <find>findAdvisorsThatCanApply</find>
+      <find>ProxyTransactionManagementConfiguration</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/come/boge/bean/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/come/boge/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/come/boge/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/come/boge/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/come/boge/service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/come/boge/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/come/boge/IocTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/come/boge/config/ConfigClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/config/CustomTypeFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/sacntest/ScanTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/config/CustomCondition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IocTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/bean/Yello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/config/CustomImportSelector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/config/CustomImportBeanDefinitionRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/bean/Car.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IocTest_scan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/config/ConfigClass2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/config/ConfigClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/config/MainConfigOfLifeCycle.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/tx/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/tx/UserSerevice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TxTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/tx/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boge/config/TxConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-23" />
+    <option name="y" value="14" />
+    <option name="width" value="1894" />
+    <option name="height" value="1008" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boge" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boge" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boge" type="462c0819:PsiDirectoryNode" />
+              <item name="tx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotationlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotationlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562078103911" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.boge.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TxTest.test01">
+    <configuration name="IocTest_scan.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springannotationlearn" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IocTest_scan" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springannotationlearn" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IocTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springannotationlearn" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IocTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springannotationlearn" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springannotationlearn" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TxTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.IocTest.test01" />
+      <item itemvalue="JUnit.IocTest.test02" />
+      <item itemvalue="JUnit.IocTest_scan.test01" />
+      <item itemvalue="JUnit.TxTest.test01" />
+      <item itemvalue="JUnit.TxTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TxTest.test01" />
+        <item itemvalue="JUnit.TxTest" />
+        <item itemvalue="JUnit.IocTest_scan.test01" />
+        <item itemvalue="JUnit.IocTest.test02" />
+        <item itemvalue="JUnit.IocTest.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5c49ac2-855c-4fc5-aa85-765ef066f292" name="Default Changelist" comment="" />
+      <created>1561194103115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561194103115</updated>
+      <workItem from="1561194113426" duration="5184000" />
+      <workItem from="1561382350939" duration="2812000" />
+      <workItem from="1561468839590" duration="1757000" />
+      <workItem from="1561555606718" duration="3334000" />
+      <workItem from="1561643311660" duration="597000" />
+      <workItem from="1562074090165" duration="3802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TxTest_test01 - 2019.07.02 at 21h 50m 32s.xml">
+      <configuration name="TxTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TxTest - 2019.07.02 at 21h 51m 00s.xml">
+      <configuration name="TxTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TxTest_test01 - 2019.07.02 at 21h 52m 01s.xml">
+      <configuration name="TxTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TxTest_test01 - 2019.07.02 at 21h 52m 14s.xml">
+      <configuration name="TxTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TxTest_test01 - 2019.07.02 at 22h 00m 38s.xml">
+      <configuration name="TxTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TxTest_test01 - 2019.07.02 at 22h 01m 28s.xml">
+      <configuration name="TxTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TxTest_test01 - 2019.07.02 at 22h 01m 44s.xml">
+      <configuration name="TxTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TxTest_test01 - 2019.07.02 at 22h 05m 10s.xml">
+      <configuration name="TxTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TxTest_test01 - 2019.07.02 at 22h 05m 26s.xml">
+      <configuration name="TxTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TxTest_test01 - 2019.07.02 at 22h 25m 39s.xml">
+      <configuration name="TxTest.test01" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17486000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21481876" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.468039" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22318527" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.46912244" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/boge/config/TxConfig.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.getBean(&quot;txConfig&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanFactory.getBean(&quot;txConfigg&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>annotationAttribute.get(&quot;value&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>annotationAttribute.get(&quot;name&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>metadata.getAnnotationAttributes()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>metadata.getAllAnnotationAttributes(&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.springframework.core.type.StandardMethodMetadata</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((StandardMethodMetadata) metadata).getIntrospectedMethod()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.springframework.core.type.StandardMethodMetadata</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/custom/CustomImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/custom/CustomTypeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/custom/CustomImportBeanDefinitionRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/bean/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#64#65#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/bean/Blue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/custom/CustomCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/beans/Introspector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="283" column="25" selection-start-line="283" selection-start-column="25" selection-end-line="283" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationBeanNameGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="149" column="33" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanNameGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/config/ConfigClass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4437">
+          <caret line="281" column="42" selection-start-line="281" selection-start-column="42" selection-end-line="281" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="77" column="41" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/config/ConfigClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4063">
+          <caret line="275" column="68" selection-start-line="275" selection-start-column="68" selection-end-line="275" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6324">
+          <caret line="401" column="25" selection-start-line="401" selection-start-column="25" selection-end-line="401" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IocTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="123" selection-start-line="11" selection-start-column="123" selection-end-line="11" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/config/MainConfigOfLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="42" column="94" selection-start-line="42" selection-start-column="94" selection-end-line="42" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/stereotype/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/tx/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IocTest_scan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE.jar!/org/springframework/transaction/annotation/EnableTransactionManagement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/ImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#3788#3929#0" expanded="true" />
+            <element signature="e#3928#3929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="271" selection-start-line="271" selection-end-line="271" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="685" column="88" selection-start-line="685" selection-start-column="83" selection-end-line="685" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="585" selection-start-line="585" selection-end-line="585" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/AdviceModeImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="512" column="22" selection-start-line="512" selection-start-column="12" selection-end-line="512" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/AutoProxyRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+          <folding>
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3099#3100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/aspectj/AspectJExpressionPointcut.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAttributeSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/interceptor/AbstractFallbackTransactionAttributeSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="107" column="68" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE-sources.jar!/org/springframework/aop/aspectj/AspectJExpressionPointcut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="89" column="57" lean-forward="true" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="217" column="46" selection-start-line="217" selection-start-column="44" selection-end-line="217" selection-end-column="46" />
+          <folding>
+            <element signature="e#10368#10369#0" expanded="true" />
+            <element signature="e#10419#10420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/annotation/EnableTransactionManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="151" column="34" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/annotation/TransactionManagementConfigurationSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="46" column="90" selection-start-line="46" selection-start-column="90" selection-end-line="46" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/interceptor/BeanFactoryTransactionAttributeSourceAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAttributeSourcePointcut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE-sources.jar!/org/springframework/aop/support/AbstractPointcutAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="55" />
+          <folding>
+            <element signature="e#2272#2273#0" expanded="true" />
+            <element signature="e#2328#2329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE-sources.jar!/org/springframework/aop/support/AbstractBeanFactoryPointcutAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/tx/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boge/config/TxConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
